@@ -24,10 +24,10 @@ public class PlayerController : MonoBehaviour {
 		Debug.Log (moveHorizontal);
 		Debug.Log (moveVertical);
 
-		Vector3 movement = new Vector3(moveHorizontal, 0, moveVertical);
+		//Vector3 movement = new Vector3(moveHorizontal, 0, moveVertical);
 		//Debug.Log (movement);
 		
-		GetComponent<Rigidbody>().AddForce(movement * speed * Time.deltaTime);
+		//GetComponent<Rigidbody>().AddForce(movement * speed * Time.deltaTime);
 	}﻿
 
 	void OnTriggerEnter(Collider other) 
